@@ -61,7 +61,7 @@ body {
 }
 .priceBoxLeft div p {
     font-size:  14px;
-    color: hsl(224, 23%, 55%)
+    color: hsl(224, 23%, 55%);
 }
 .priceBox a {
     font-weight: 900;
@@ -71,16 +71,19 @@ body {
     text-decoration: none;
     color: hsl(245, 75%, 52%);
 }
-a.proceedButton {
+button.proceedButton {
     display: block;
-    text-decoration: none;
-    color: white;
+    color: #fff;
     background-color: hsl(245, 75%, 52%);
-    padding: 20px 0;
-    border-radius: 12px;
+    padding: 15px;
     margin: 30px 0;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 10px hsl(225, 100%, 98%);
+    
 }
-a.proceedButton:hover {
+button.proceedButton:hover {
     background-color: hsl(224, 23%, 55%);
 }
 a.cancelButton {
