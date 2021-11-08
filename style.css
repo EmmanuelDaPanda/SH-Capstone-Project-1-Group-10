@@ -104,6 +104,8 @@ a.cancelButton:hover {
     .title {
         font-size: 24px;
     }
+    .subtitle {
+        font-size: 10px;
     div.priceBox {
         padding: 12px;
     }
