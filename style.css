@@ -89,11 +89,11 @@ a.cancelButton {
     font-weight: 900;
 }
 a.cancelButton:hover {
-    color: hsl(245, 75%, 52%);
+    color: hsl(223, 47%, 23%);
 }
 @media only screen and (max-width: 425px){
     body {
-        font-size: 14px;
+        background-image: url(images/pattern-background-desktop.svg);
     }
     .container {
         max-width: 90%;
