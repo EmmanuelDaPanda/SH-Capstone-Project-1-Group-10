@@ -36,13 +36,13 @@ body {
 }
 .subtitle {
     color: hsl(224, 23%, 55%);
-    margin-bottom: 13px;
+    margin-bottom: 15px;
 }
 .priceBox {
     background-color: hsl(225, 100%, 98%);
     border-radius: 12px;
     display: flex;
-    padding: 25px;
+    padding: 22px;
     align-items: center;
     justify-content: space-between;
 }
@@ -65,13 +65,15 @@ body {
 }
 .priceBox a {
     font-weight: 900;
-    color: hsl(223, 56%, 30%);
+    color: hsl(245, 75%, 52%);
 }
 .priceBox a:hover {
     text-decoration: none;
-    color: hsl(245, 75%, 52%);
+    color: hsl(225, 45%, 55%);
 }
 button.proceedButton {
+    font-size: 16px;
+    font-weight: 700;
     display: block;
     color: #fff;
     background-color: hsl(245, 75%, 52%);
@@ -84,7 +86,8 @@ button.proceedButton {
     
 }
 button.proceedButton:hover {
-    background-color: hsl(224, 23%, 55%);
+    background-color: hsl(225, 45%, 55%);
+    cursor: pointer;
 }
 a.cancelButton {
     color: hsl(224, 23%, 55%);
