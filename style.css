@@ -36,7 +36,7 @@ body {
 }
 .subtitle {
     color: hsl(224, 23%, 55%);
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 .priceBox {
     background-color: hsl(225, 100%, 98%);
@@ -80,7 +80,7 @@ button.proceedButton {
     width: 100%;
     border: 0;
     border-radius: 10px;
-    box-shadow: 0px 10px hsl(225, 100%, 98%);
+    box-shadow: 0px 15px hsl(225, 100%, 98%);
     
 }
 button.proceedButton:hover {
